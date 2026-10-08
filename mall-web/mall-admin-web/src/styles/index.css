@@ -1,0 +1,39 @@
+@import './variables.css';
+@import './element-theme.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1a1a1a;
+  background-color: #FEF2F2;
+}
+
+@layer components {
+  .page-title {
+    @apply text-2xl font-bold text-[#450A0A];
+  }
+  .page-header {
+    @apply flex items-center justify-between mb-6;
+  }
+  .card-surface {
+    @apply bg-white rounded-xl shadow-sm border border-[#FEE2E2];
+  }
+  .stat-card {
+    @apply bg-white rounded-xl p-6 shadow-sm border border-[#FEE2E2];
+  }
+  .stat-icon-bg {
+    @apply w-12 h-12 bg-[#FEF2F2] rounded-full flex items-center justify-center;
+  }
+  .stat-value-primary {
+    @apply text-2xl font-bold text-[#450A0A];
+  }
+  .stat-value-accent {
+    @apply text-2xl font-bold text-[#DC2626];
+  }
+}

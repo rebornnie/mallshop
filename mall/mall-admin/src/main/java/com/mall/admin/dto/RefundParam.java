@@ -1,0 +1,16 @@
+package com.mall.admin.dto;
+
+import jakarta.validation.constraints.NotNull;
+import lombok.Data;
+
+@Data
+public class RefundParam {
+
+    @NotNull(message = "订单ID不能为空")
+    private Long orderId;
+
+    @NotNull(message = "审批结果不能为空")
+    private Boolean approved;
+
+    private String note;
+}

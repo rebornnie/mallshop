@@ -1,0 +1,17 @@
+:root {
+  --color-primary: #DC2626;
+  --color-primary-dark: #450A0A;
+  --color-primary-light: #FEE2E2;
+  --color-primary-muted: #FEF2F2;
+  --color-on-primary: #FFFFFF;
+  --color-accent: #F87171;
+  --color-background: #FEF2F2;
+  --color-foreground: #1A1A1A;
+  --color-muted: #FEF2F2;
+  --color-border: #FEE2E2;
+  --color-destructive: #DC2626;
+  --color-ring: #DC2626;
+  --sidebar-width: 220px;
+  --sidebar-collapsed-width: 64px;
+  --header-height: 56px;
+}
